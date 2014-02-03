@@ -9,7 +9,7 @@ title: Events
   <div class="row">
     <ul class="event-grid small-block-grid-2 medium-block-grid-4 large-block-grid-5">
       <% section[1].each do |event| %>
-        <li><img src="<%= event.icon %>"></li>
+        <li><a href="/events/<%= event.id %>/"><img src="<%= event.icon %>"></a></li>
       <% end %>
     <ul>
   </div>
