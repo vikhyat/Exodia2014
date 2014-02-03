@@ -1,0 +1,12 @@
+Technical:
+  - id: event_1
+    icon: http://placehold.it/300x200
+Cultural:
+  - id: event_2
+    icon: http://placehold.it/300x200
+Literary:
+  - id: event_3
+    icon: http://placehold.it/300x200
+"Informal & Online":
+  - id: event_4
+    icon: http://placehold.it/300x200
