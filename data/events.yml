@@ -1,30 +1,12 @@
 Technical:
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
-    icon: http://placehold.it/300x200
-  - id: event_1
+  - id: event1
     icon: http://placehold.it/300x200
 Cultural:
-  - id: event_2
+  - id: event1
     icon: http://placehold.it/300x200
 Literary:
-  - id: event_3
+  - id: event1
     icon: http://placehold.it/300x200
 "Informal & Online":
-  - id: event_4
+  - id: event1
     icon: http://placehold.it/300x200

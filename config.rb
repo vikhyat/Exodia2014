@@ -29,7 +29,7 @@
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 data.events.map {|x| x[1] }.flatten.each do |event|
-  proxy "/about/events/#{event.id}/index.html", "/events/template.html"
+  proxy "/events/#{event.id}/index.html", "/events/template.html"
 end
 
 ###
