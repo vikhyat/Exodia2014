@@ -50,10 +50,10 @@ title: Events
       $(this).addClass("active");
       $(".row").slideUp();
       $(this).next().slideDown();
-      $(".bg").fadeOut(function() {
-        $(".bg").attr("src", transition.image).load(function() {
-          $(".bg").fadeIn();
-        });
+
+      $(".bg").before( $("<img>").addClass("bg").attr("src", transition.image) );
+      $(".bg:last").fadeOut(function() {
+        $(this).remove();
       });
     }
   });
