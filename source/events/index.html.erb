@@ -45,15 +45,17 @@ title: Events
   });
   $("h2").click(function() {
     var transition = sectionTransitions[$(this).text().trim()];
-    $("h2").removeClass("active");
-    $(this).addClass("active");
-    $(".row").slideUp();
-    $(this).next().slideDown();
-    $(".bg").fadeOut(function() {
-      $(".bg").attr("src", transition.image).load(function() {
-        $(".bg").fadeIn();
+    if ($(".bg").attr("src") != transition.image) {
+      $("h2").removeClass("active");
+      $(this).addClass("active");
+      $(".row").slideUp();
+      $(this).next().slideDown();
+      $(".bg").fadeOut(function() {
+        $(".bg").attr("src", transition.image).load(function() {
+          $(".bg").fadeIn();
+        });
       });
-    });
+    }
   });
 </script>
 
