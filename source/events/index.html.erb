@@ -4,9 +4,7 @@ title: Events
 
 <h1 class="page-header">Events</h1>
 
-<div class="bgwrap">
-  <img class="bg" src="http://formeinfullbloom.files.wordpress.com/2013/06/gardenofwords2.jpg">
-</div>
+<div class="bgwrap"></div>
 
 <% data.events.each do |section| %>
   <h2>
@@ -48,14 +46,14 @@ title: Events
   });
   $("h2").click(function() {
     var transition = sectionTransitions[$(this).text().trim()];
-    if ($(".bg").attr("src") != transition.image) {
+    if ($(".bg").css("background-image") != transition.image) {
       if (Modernizr.touch) {
         // Lesser animation on touch devices.
         $("h2").removeClass("active");
         $(this).addClass("active");
         $(".row").hide();
         $(this).next().show();
-        $(".bg").attr("src", transition.image);
+        $(".bgwrap").css("background-image", "url(" + transition.image + ")");
       }
       else {
         $("h2").removeClass("active");
@@ -63,10 +61,10 @@ title: Events
         $(".row").slideUp();
         $(this).next().slideDown();
 
-        $(".bgwrap").prepend(
-          $("<img>").addClass("bg").attr("src", transition.image)
+        $(".bgwrap").before(
+          $("<div>").addClass("bgwrap").css("background-image", "url(" + transition.image + ")")
         );
-        $(".bg:last").fadeOut(function() {
+        $(".bgwrap:last").fadeOut(function() {
           $(this).remove();
         });
       }
