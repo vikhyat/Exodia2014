@@ -44,30 +44,42 @@ title: Events
     $(this).find("div").css("background-color", transition.color);
     (new Image()).src = transition.image;
   });
+
+  var originalBg = $(".bgwrap").css("background-image").slice(5, -2);
+  function setBg(image) {
+    if (Modernizr.touch) {
+      $(".bgwrap").css("background-image", "url(" + transition.image + ")");
+    } else {
+      $(".bgwrap").before(
+        $("<div>").addClass("bgwrap").css("background-image", "url(" + image + ")")
+      );
+      $(".bgwrap:last").fadeOut(function() {
+        $(this).remove();
+      });
+    }
+  }
+
   $("h2").click(function() {
     var transition = sectionTransitions[$(this).text().trim()];
-    if ($(".bg").css("background-image") != transition.image) {
+    if ($(".bgwrap").css("background-image").slice(5, -2) == transition.image) {
+      $("h2").removeClass("active");
+      $(".row").slideUp();
+      setBg(originalBg);
+    } else {
       if (Modernizr.touch) {
         // Lesser animation on touch devices.
         $("h2").removeClass("active");
         $(this).addClass("active");
         $(".row").hide();
         $(this).next().show();
-        $(".bgwrap").css("background-image", "url(" + transition.image + ")");
       }
       else {
         $("h2").removeClass("active");
         $(this).addClass("active");
         $(".row").slideUp();
         $(this).next().slideDown();
-
-        $(".bgwrap").before(
-          $("<div>").addClass("bgwrap").css("background-image", "url(" + transition.image + ")")
-        );
-        $(".bgwrap:last").fadeOut(function() {
-          $(this).remove();
-        });
       }
+      setBg(transition.image);
     }
   });
 </script>
