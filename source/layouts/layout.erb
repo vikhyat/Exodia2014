@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= current_page.data.title || "Exodia 2014" %></title>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag  "application" %>
+  </head>
+  <body class="<%= page_classes %>">
+
+    <div class="off-canvas-wrap">
+      <div class="inner-wrap">
+        <a class="right-off-canvas-toggle menu-icon"><span></span></a>
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Exodia 2014</label></li>
+            <li><%= link_to "Home", "/" %></li>
+            <li><%= link_to "Events", "/events/" %></li>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </aside>
+
+        <%= yield %>
+
+        <a class="exit-off-canvas"></a>
+      </div>
+    </div>
+
+  </body>
+</html>

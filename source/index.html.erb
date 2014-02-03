@@ -1,0 +1,33 @@
+---
+title: Exodia 2014
+---
+
+<div class="home">
+  <div class="draw-attention-to-menu"></div>
+
+  <video autoplay loop class="bg">
+    <source src="<%= asset_url("videos/snow.webm") %>" type="video/webm" />
+    <source src="<%= asset_url("videos/snow.mp4") %>" type="video/mp4" />
+  </video>
+
+  <div class="row content-row">
+    <div class="large-6 columns large-centered content">
+      <div class="show-for-small-only" style="height: 50px"></div>
+
+      <img src="http://placehold.it/500x200" width="500" height="200">
+      <h1>Exodia<span>2014</span></h1>
+      <p>Insert tagline including March 7-9 here</p>
+
+      <iframe class="hide-for-small-only" width="100%" height="300" src="//www.youtube.com/embed/QWO9bZUx1QA" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+  $("html").addClass("home-page");
+  if (Modernizr.touch) {
+    $(".bg").remove();
+    $("body").css("background", "url(<%= asset_url("images/snow.jpg") %>) no-repeat center center fixed")
+             .css("background-size", "cover");
+  }
+</script>

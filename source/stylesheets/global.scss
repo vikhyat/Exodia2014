@@ -1,0 +1,10 @@
+.right-off-canvas-toggle {
+  position: fixed !important;
+  height: 2.6rem !important;
+  width: 2.65rem !important;
+  right: 10px;
+  top: 10px;
+  z-index: 1000;
+  background-color: #000;
+  animation: pulse 1s ease-in-out infinite;
+}
