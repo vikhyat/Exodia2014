@@ -3,9 +3,13 @@ title: Events
 ---
 
 <h1 class="page-header">Events</h1>
+<img class="bg" src="http://formeinfullbloom.files.wordpress.com/2013/06/gardenofwords2.jpg">
 
 <% data.events.each do |section| %>
-  <h2><%= section[0] %></h2>
+  <h2>
+    <%= section[0] %>
+    <div></div>
+  </h2>
   <div class="row">
     <ul class="event-grid small-block-grid-2 medium-block-grid-4 large-block-grid-5">
       <% section[1].each do |event| %>
@@ -14,4 +18,42 @@ title: Events
     <ul>
   </div>
 <% end %>
+
+<script>
+  var sectionTransitions = {
+    "Technical": {
+      color: "red",
+      image: "http://inside.anime-expo.org/wp-content/uploads/2013/07/Yukari-Yukino.jpg"
+    },
+    "Cultural": {
+      color: "orange",
+      image: "http://copypasterepost.com/wp-content/uploads/2013/07/ibnhkQG814yH5U.jpg"
+    },
+    "Literary": {
+      color: "green",
+      image: "http://thehaphazard.files.wordpress.com/2013/07/garden-of-words-screenshot-005.png?w=1200"
+    },
+    "Informal & Online": {
+      color: "purple",
+      image: "http://media.moddb.com/images/groups/1/1/84/Garden_of_words_-_image_-_e.jpg"
+    }
+  }
+  $("h2").each(function() {
+    var transition = sectionTransitions[$(this).text().trim()];
+    $(this).find("div").css("background-color", transition.color);
+    (new Image()).src = transition.image;
+  });
+  $("h2").click(function() {
+    var transition = sectionTransitions[$(this).text().trim()];
+    $("h2").removeClass("active");
+    $(this).addClass("active");
+    $(".row").slideUp();
+    $(this).next().slideDown();
+    $(".bg").fadeOut(function() {
+      $(".bg").attr("src", transition.image).load(function() {
+        $(".bg").fadeIn();
+      });
+    });
+  });
+</script>
 

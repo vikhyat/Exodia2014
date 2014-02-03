@@ -1,5 +1,14 @@
 .events_index {
-  background-image: url("http://thepatternlibrary.com/img/b.jpg");
+  background: #000;
+
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
 
   h2 {
     background-color: rgba(0,0,0,0.3);
@@ -7,11 +16,32 @@
     padding: 20px;
     padding-left: 30px;
     color: rgba(255, 255, 255, 0.7);
+    position: relative;
+
+    div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: -1;
+      width: 0%;
+      transition: width 0.2s ease-in;
+      opacity: 0.4;
+    }
+
+    &.active div, &:hover div {
+      width: 100%;
+    }
+
+    &.active div {
+      opacity: 0.5;
+    }
   }
 
   .row {
     max-width: 100%;
     padding: 20px;
+    display: none;
   }
 
   .event-grid {
