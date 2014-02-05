@@ -1,0 +1,18 @@
+.sponsors {
+  background: url('http://3.bp.blogspot.com/-C__SFDwAZa0/Ua9JCJKl6FI/AAAAAAADI6E/AsZIhHtbJh8/s1600/Kotonoha%2Bno%2BNiwa%2B-%2BMovie%2B-%2BLarge%2B06.jpg') center center no-repeat fixed;
+  background-size: cover;
+
+  .row {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .sponsor-grid {
+    li {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
