@@ -28,8 +28,9 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+
 data.events.map {|x| x[1] }.flatten.each do |event|
-  proxy "/events/#{event.id}/index.html", "/events/template.html"
+  proxy "/events/#{event.id}/index.html", "/events/template.html", locals: data.event[event.id]
 end
 
 ###

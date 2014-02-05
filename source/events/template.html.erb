@@ -1,1 +1,25 @@
-<h1>Event Template</h1>
+<script>
+  $("body").addClass('event');
+</script>
+
+<div class="cover-image">
+  <div class="cover" style="background: url('<%= cover_image %>') center center no-repeat fixed"></div>
+  <div class="overlay"></div>
+
+  <h1><%= title %></h1>
+</div>
+
+<div class="row">
+  <div class="small-12 large-8 columns">
+    <% main.each do |heading, content| %>
+      <h2><%= heading %></h2>
+      <p><%= content %></p>
+    <% end %>
+  </div>
+  <div class="small-12 large-4 columns sidebar">
+    <% sidebar.each do |heading, content| %>
+      <h3><%= heading %></h3>
+      <p><%= content %></p>
+    <% end %>
+  </div>
+</div>
