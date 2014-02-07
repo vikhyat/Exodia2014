@@ -28,9 +28,35 @@ Technical:
 Cultural:
   - id: synchronians
     icon: http://placehold.it/300x200
+  - id: bandslam
+    icon: http://placehold.it/300x200
+  - id: Instrumania
+    icon: http://placehold.it/300x200
+  - id: bigstink
+    icon: http://placehold.it/300x200
+  - id: exodiaidol
+    icon: http://placehold.it/300x200
+  - id: imagination
+    icon: http://placehold.it/300x200
+  - id: groovefanatics
+    icon: http://placehold.it/300x200
+
 Literary:
   - id: event1
     icon: http://placehold.it/300x200
 "Informal & Online":
-  - id: event1
+  - id: mensa
     icon: http://placehold.it/300x200
+  - id: prankomania
+    icon: http://placehold.it/300x200
+  - id: dalalstreet
+    icon: http://placehold.it/300x200
+  - id: treasurehunt
+    icon: http://placehold.it/300x200
+  - id: detectiveye
+    icon: http://placehold.it/300x200
+  - id: minute
+    icon: http://placehold.it/300x200
+  - id: headscracher
+    icon: http://placehold.it/300x200
+
