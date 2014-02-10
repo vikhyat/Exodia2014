@@ -1,0 +1,28 @@
+title: ElectroWar
+cover_image: http://i.imgur.com/8vdgF7D.jpg
+main:
+  Summary:
+    Propose technological solutions to given theme. The solution can be an
+    improvement of an existing idea or a completely new solution to the problem.<br>
+
+    Problem statement will be uploaded later.
+
+sidebar:
+  Rules:
+    <strong>1)</strong> Team size is strictly limited to maximum of three members.<br>
+    <strong>2)</strong> A working prototype model is necessary. The prototype should be demonstrable.
+    <br><strong> 3)</strong> The evaluation criteria includes justification of Theme by the team during the final presentation. This evaluation is bound to be subjective and the decision taken by the judges will be final and binding.
+    <br><strong>4)</strong> If you use any self-made fabricated module, you need to prepare the Eagle Doc.
+    <br><strong>5)</strong> All the participating teams are supposed to submit their final codes used.
+  Other Information:
+    <strong>Judging Criteria</strong><br>
+    <strong>1)</strong>The Judging will be subjective.
+    <br><strong>2)</strong>All basic compulsory features should be implemented and only after their evaluation would the extra features would be considered and assessed.
+    <br><strong>3)</strong>The effectiveness of the hardware and software used in solving the problem statement.
+    <br><strong>4)</strong>User interface of the device.
+    <br><strong>5)</strong>Robustness and innovation in design of the device.
+    <br><strong>6)</strong>Cost effectiveness of the device.
+    <br><strong>7)</strong>Extra features implemented, may add much to your score. They should complement the original design.
+    <br><strong>8)</strong>Presentation (either a PowerPoint presentation or a neat block diagram can be used).
+  Contact:
+    <strong>Mandar Karpe</strong>
