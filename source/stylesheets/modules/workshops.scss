@@ -1,0 +1,22 @@
+.workshops {
+  background: url(http://i.imgur.com/8ThJwWC.jpg) center center fixed no-repeat;
+  background-size: cover;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  .background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+  }
+
+  .workshop {
+    padding: 30px;
+  }
+}
