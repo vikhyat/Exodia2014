@@ -1,0 +1,27 @@
+.pronite {
+  .bottom-content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+
+    h3, p {
+      color: #fff;
+    }
+  }
+
+  .actual-bottom-content {
+    width: 60%;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  .youtube-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
