@@ -1,0 +1,24 @@
+title: Decode To Encode
+cover_image: http://i.imgur.com/A0cb2MW.jpg
+main:
+  Summary:
+    <strong>Controlling complexity is the essence of computer programming. ~Brian Kernighan</strong><br>
+
+    Exodia '14 wlecomes all the programmers who love designing efficient codes from the inefficient.
+
+    Decode to Encode is an onsite contest which is going to be held at IIT Mandi. You will be provided with an inefficient code and your job is to modify the code and provide a code that passes all the test cases in the given time limit.
+
+sidebar:
+  Rules:
+    <strong>1)</strong> The competition is for individuals. No teams are allowed.
+    <br><strong>2)</strong> There is no restriction on the programming language to be used.
+    <br><strong>3)</strong> This competition is only for students, hence no professionals are allowed.
+
+    <br><strong>1)</strong> You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.
+    <br><strong>2)</strong> Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.
+    <br><strong>3)</strong> The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved. 
+  Contact:
+    <strong>Nikhil Garg</strong><br>
+    9805345728 nikhilgarg2@gmail.com<br>
+    <strong>Sohil Savla</strong><br>
+    9805345698 

@@ -1,36 +1,61 @@
 Technical:
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
-  - id: event1
-    icon: http://placehold.it/300x200
+  - id: apptitude
+    icon: http://i.imgur.com/ogQ0wlK.jpg
+  - id: troy
+    icon: http://i.imgur.com/SPIHKYq.jpg
+  - id: junkyardwars
+    icon: http://i.imgur.com/bv8cbxq.jpg
+  - id: dementia
+    icon: http://i.imgur.com/1BVWFKP.jpg
+  - id: discover
+    icon: http://i.imgur.com/CuDI1Fq.jpg
+  - id: cosmos
+    icon: http://i.imgur.com/Nwev1Y8.jpg
+  - id: quickthesis
+    icon: http://i.imgur.com/8q7D5vK.jpg
+  - id: electrowar
+    icon: http://i.imgur.com/8vdgF7D.jpg
+  - id: circuithunt
+    icon: http://i.imgur.com/FvhtAdf.jpg
+  - id: decodetoencode
+    icon: http://i.imgur.com/A0cb2MW.jpg
+
 Cultural:
-  - id: event1
-    icon: http://placehold.it/300x200
+  - id: synchronians
+    icon: http://i.imgur.com/qLC1Ycl.jpg
+  - id: bandslam
+    icon: http://i.imgur.com/FAtKw2S.jpg
+  - id: Instrumania
+    icon: http://i.imgur.com/uixrFBO.jpg
+  - id: bigstink
+    icon: http://i.imgur.com/savzDDy.jpg
+  - id: exodiaidol
+    icon: http://i.imgur.com/V2HSTvv.jpg
+  - id: imagination
+    icon: http://i.imgur.com/Fcl4hzC.jpg
+  - id: groovefanatics
+    icon: http://i.imgur.com/kGagcZt.jpg
+
 Literary:
-  - id: event1
-    icon: http://placehold.it/300x200
+  - id: biggestliar
+    icon: http://i.imgur.com/IvN7h2S.jpg
+  - id: devilsadvocate
+    icon: http://i.imgur.com/cDeX8dW.jpg
+  - id: survivor
+    icon: http://i.imgur.com/p1p05SU.jpg
 "Informal & Online":
-  - id: event1
-    icon: http://placehold.it/300x200
+  - id: mensa
+    icon: http://i.imgur.com/AjvrPvq.jpg
+  - id: prankomania
+    icon: http://i.imgur.com/BEgmTo3.jpg
+  - id: dalalstreet
+    icon: http://i.imgur.com/25qaoZT.jpg
+  - id: treasurehunt
+    icon: http://i.imgur.com/E58oL27.jpg
+  - id: detectiveye
+    icon: http://i.imgur.com/vTHIlzi.jpg
+  - id: minute
+    icon: http://i.imgur.com/fzYhaVb.jpg
+  - id: headscracher
+    icon: http://i.imgur.com/Hc6A1mh.jpg
+
