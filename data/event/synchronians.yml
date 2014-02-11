@@ -4,7 +4,6 @@ cover_image: http://i.imgur.com/qLC1Ycl.jpg
 main:
   Summary: The biggest group dance competition of Himachal awaits your participation! From Himachali Folks to Hip-Hop and Bollywood, we have got it all.If You think you can beat the best then come prove to us. The greatest ones get crowned the 'Synchronians'. A treat for all the dance lovers.... Must watch!!
 
-sidebar:
   Rules: |
     <strong>1)</strong>Team Composition: 5-25 Members-Maximum number of entries per college is NOT RESTRICTED.<br>
     <strong>2)</strong>The two (or more) teams from the same college should not have common participants.<br>
@@ -21,6 +20,7 @@ sidebar:
     <strong>13)</strong>All the teams who register must also send the following to choreoiitmandi@gmail.com :<br>
        <strong>a) The dance form they will perform during synchronians.</strong><br>
        <strong>b) A video of their previous dance performances (you can also share the youtube link).</strong><br>
+sidebar:
   Contact: |
     <strong>Mohit Rawat</strong><br>
     Mob. no. : 09805675759<br>

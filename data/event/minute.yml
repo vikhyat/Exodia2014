@@ -9,8 +9,6 @@ main:
 
     In this game the contestants form teams of two and complete a given challenge, obviously within a
     minute.
-
-sidebar:
   Rules:
     <strong>1)</strong>Each challenge must be completed within a minute in order to advance to the next round.<br>
     <strong>2)</strong>If a team is found to be cheating in any way to complete a challenge, they will be automatically eliminated from the entire competition.<br>
@@ -26,6 +24,8 @@ sidebar:
     All decisions by the judges are final.<br>
 
     <strong>4)</strong>Each team of two will be given 1 life in the eliminators and 2 lives in the finals."<br>
+
+sidebar:
   Contact: 
     <strong>Harika Garimella</strong><br>
     09805343216<br>
