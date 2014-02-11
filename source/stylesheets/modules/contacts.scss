@@ -17,14 +17,29 @@
     background: #fff;
 
     img {
-      float: left;
       padding: 20px;
-height:200px;
-width:200px;
+      height: 200px;
+      width: 200px;
+    }
+
+    &.large-6 img {
+      float: left;
+    }
+
+    &.large-4 img {
+      padding-bottom: 0;
     }
 
     .card-content {
       padding: 20px;
+    }
+  }
+
+  .web {
+    margin-bottom: 40px;
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }
