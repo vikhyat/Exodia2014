@@ -12,6 +12,12 @@
         Exodia 2014
       <% end %>
     </title>
+	<!-- Opengraph meta tag-->
+	<meta property="og:description" content="Annual Tech-Cult fest of IIT Mandi">
+	<meta property="og:image" content="../images/final.jpg">
+	<meta property="og:site_name" content="Exodia">
+	<meta property="og:title" content="Exodia'14">
+
     <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="/stylesheets/application.css?1" media="screen" rel="stylesheet" type="text/css" />
