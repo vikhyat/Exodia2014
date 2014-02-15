@@ -1,0 +1,20 @@
+title: Hover-Ace
+cover_image: http://i.imgur.com/2Qhq0Vn.jpg
+main:
+  Summary:
+    <strong>Wanna rule the land and the water? Get on your nerves and Just Hover!</strong>
+    The task is to build an autonomous hovercraft to traverse through the arena using line following
+    mechanism.
+  Task:
+    Team must build an autonomous hovercraft to traverse through the arena using line following mechanism.<br>
+    <strong>Download and go through the PDF for rules and regulations.</strong>
+    <p>
+      <a class="button radius small" href="/docs/hoverace.pdf"><i class="fa fa-download"></i> Problem statement</a>
+    </p>
+sidebar:
+  Contact:
+    <strong>Ambuj Som</strong><br>
+    09805343650<br>
+    <strong>Sandeep kumar</strong><br>
+    08302121267
+    <br><strong>hoverace@exodia.in</strong>

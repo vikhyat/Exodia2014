@@ -19,6 +19,17 @@ Technical:
     icon: http://i.imgur.com/FvhtAdf.jpg
   - id: decodetoencode
     icon: http://i.imgur.com/A0cb2MW.jpg
+  - id: clashofavatarslinefollowers
+    icon: http://i.imgur.com/TVZCmCz.jpg
+  - id: clashofavatarssumo
+    icon: http://i.imgur.com/cPRwsDv.jpg
+  - id: arcad
+    icon: http://i.imgur.com/H54CR08.jpg
+  - id: nitroblaze
+    icon: http://i.imgur.com/yPBp2aD.jpg
+  - id: hoverace
+    icon: http://i.imgur.com/2Qhq0Vn.jpg
+
 
 Cultural:
   - id: synchronians
@@ -31,8 +42,6 @@ Cultural:
     icon: http://i.imgur.com/savzDDy.jpg
   - id: exodiaidol
     icon: http://i.imgur.com/V2HSTvv.jpg
-  - id: imagination
-    icon: http://i.imgur.com/Fcl4hzC.jpg
   - id: groovefanatics
     icon: http://i.imgur.com/kGagcZt.jpg
 
@@ -43,11 +52,12 @@ Literary:
     icon: http://i.imgur.com/cDeX8dW.jpg
   - id: survivor
     icon: http://i.imgur.com/p1p05SU.jpg
+  - id: gameofwords
+    icon: http://i.imgur.com/4jR1HCh.jpg
+
 "Informal & Online":
   - id: mensa
     icon: http://i.imgur.com/AjvrPvq.jpg
-  - id: prankomania
-    icon: http://i.imgur.com/BEgmTo3.jpg
   - id: dalalstreet
     icon: http://i.imgur.com/25qaoZT.jpg
   - id: treasurehunt
@@ -56,6 +66,19 @@ Literary:
     icon: http://i.imgur.com/vTHIlzi.jpg
   - id: minute
     icon: http://i.imgur.com/fzYhaVb.jpg
-  - id: headscracher
+  - id: headscratcher
     icon: http://i.imgur.com/Hc6A1mh.jpg
-
+  - id: retouch
+    icon: http://i.imgur.com/oE2XJE7.jpg
+  - id: imagination
+    icon: http://i.imgur.com/Fcl4hzC.jpg
+  - id: rangde
+    icon: 
+  - id: conspiracytheory
+    icon:
+  - id: mrmissexodia
+    icon: 
+  - id: supari
+    icon: 
+  - id: rexpictorium
+    icon:  
