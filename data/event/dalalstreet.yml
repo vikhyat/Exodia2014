@@ -1,7 +1,7 @@
---- 
+title: "Dalal Street"
 cover_image: http://i.imgur.com/25qaoZT.jpg
 main: 
   Summary: "<strong>A call to all the dalal's!</strong> <br> Welcome to the real world. It's time to use your skills and earn money. As the name suggests, it's an online game of trading with Shares, Bonds and Debentures. Or you can say it's a game of luck. Now it's up to you to show whether skill wins over luck or not. And remember, the participant who earns the maximum will take the profit... IN CASH!"
-sidebar: 
   Rules: "<strong>1)</strong>This is an interactive stock simulation game where players will trade in virtual stocks using virtual money.<br> <strong>2)</strong>This is an individual event. Each member will be given certain amount of virtual cash at the beginning.<br> <strong>3)</strong>The trading will be done using the data provided live on screen at the time of event.<br> <strong>4)</strong>The stock prices of the listed companies will vary according to the simulated market conditions and news flashes.<br> <strong>5)</strong>If any team is found to be involved in any kind of misdoings, their registration will be cancelled."
-title: "Dalal Street"
+sidebar:
+  Contact: "<strong>Hemant Chawla</strong><br><strong>Priya Agarwal</strong><br><strong>dalal@exodia.in</strong>"

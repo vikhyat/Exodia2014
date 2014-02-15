@@ -1,12 +1,33 @@
 title: Circuit Hunt
 cover_image: http://i.imgur.com/FvhtAdf.jpg
 main:
-  Summary:
-    5 stage competition each with puzzle or circuit debugging or designing.
+  Summary: "The map is set and the path is discovered. Clear up your brains, get your stuff together and set sail to
+	break the Resistance in you and achieve more than you’re Capacitance. Get your IC guns ready and
+	break all ill-logical Gates to achieve that memorable glory.<br>
+	Your path will be blocked by circuits and riddles. You have to conquer all to reach the other end. The
+	other end has a box guarded by a super circuit. Solve it, break the code and get out of the field."
+
   Rules:
-    It’s a team event and team size can be of 2-5
-    members
+    "<strong>1)</strong>There will be four circuits and riddles to solve in all and a final super circuit.
+	<br><strong>1)</strong>The solution to the riddle gives you a hint or answer to the circuit.
+	<br><strong>2)</strong>The circuit is up and running but you have to cut it down by adding certain pieces of circuit 
+	components (not altering the circuit at all).
+	<br><strong>3)</strong>You cannot break the circuit. It must be complete but only the component we wish to stop must not
+	work on addition of any further components.
+	<br><strong>4)</strong>You cannot short circuit the components.
+	<br><strong>5)</strong>Components/ tools will be provided by organizers. 
+	<br><strong>6)</strong>You can add as many components you want but only from those provided by the organizer.
+	<br><strong>7)</strong>You can solve the circuits in any order you want but you solve the super circuit only after you have 
+	solved the rest.
+	<br><strong>8)</strong>In case of disputes organizer’s decision is final." 
+  
+  Conditions: "<strong>1)</strong>Team size of up to 5 is allowed.
+	<br><strong>2)</strong>Limited no. of teams are allowed.
+	<br><strong>3)</strong>Registrations on first come first serve basis."
+
 
 sidebar:
-  Contact: 
-    <strong>Mandar karpe</strong>
+  Contact:
+    "<strong>Mandar karpe</strong><br>
+    08894667449
+    <br><strong>circuithunt@exodia.in</strong>"
