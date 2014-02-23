@@ -1,24 +1,7 @@
 .attractions {
-  background: url(/images/attractions.jpg) center center fixed no-repeat;
-  background-size: cover;
-
-  h2 {
-    font-weight: bold;
-  }
-
-  .background-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
+  img {
     width: 100%;
-    background: #fff;
-    opacity: 0.7;
-    z-index: -1;
-  }
-
-  .attraction {
-    padding: 30px;
+    height: auto;
   }
 }
 

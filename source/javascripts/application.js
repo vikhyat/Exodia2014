@@ -6,10 +6,7 @@
 //= require foundation/foundation
 //= require foundation/foundation.offcanvas
 //= require foundation/foundation.tooltip
-//
-// Development only -- remove later!
-//
-//= require vendor/placeholder
+//= require foundation/foundation.orbit
 
 $(function() {
   $(document).foundation();
