@@ -3,8 +3,8 @@
   <div><%= f.label :name %><br />
   <%= f.text_field :name, :required => true %></div>
 
-  <div><%= f.label "Exodia ID" %><br />
-  <%= f.number_field :exodia_id, :required => true %></div>
+  <div><%= f.label :exodia_id, "Exodia ID" %><br />
+  <%= f.text_field :exodia_id, :required => false %></div>
 
   <div><%= f.label :email %><br />
   <%= f.text_field :email, :required => true %></div>
@@ -12,8 +12,13 @@
   <div><%= f.label :phone %><br />
   <%= f.text_field :phone, :required => true %></div>
 
-  <div><%= f.label "College Name" %><br />
+  <div><%= f.label :college_name, "College Name" %><br />
   <%= f.text_field :college_name, :required => true %></div>
+
+  <!--accomodation-->
+  <div><%= f.label "Accomodation" %><br />
+  <%= f.check_box :two %><%= f.label "2 Days" %><t /><%= f.check_box :three %><%= f.label "3 Days" %></div>
+
 
   <!--THE IMAGES ARE PLACED IN AN UNORDERED LIST-->
 <ul class="enlarge"> <!--We give the list a class so that we can style it seperately from other unordered lists-->
@@ -238,8 +243,8 @@
 <%= f.check_box :nfs %>
 <img src="http://i.imgur.com/p1p05SU.jpg" width="150px" height="100px" alt="NFS-Most Wanted" /> <!--thumbnail image-->
 <span> <!--span contains the popup image-->
-<img src="http://i.imgur.com/p1p05SU.jpg" alt="Need for Speed-Most Wanted" /> <!--popup image-->
-<br />Need for Speed-Most Wanted <!--caption appears under the popup image-->
+<img src="http://i.imgur.com/p1p05SU.jpg" alt="NFS-Most Wanted" /> <!--popup image-->
+<br />NFS-Most Wanted <!--caption appears under the popup image-->
 </span>
 </li>
 
@@ -260,6 +265,7 @@
 <br />Fifa 14 <!--caption appears under the popup image-->
 </span>
 </li>
-</ul>  
+</ul>
+
   <div><%= f.submit "Register", class: "btn btn-small btn-primary" %></div>
 <% end %>
