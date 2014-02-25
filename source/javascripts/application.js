@@ -6,7 +6,7 @@
 //= require foundation/foundation
 //= require foundation/foundation.offcanvas
 //= require foundation/foundation.tooltip
-//= require foundation/foundation.orbit
+//= require foundation/foundation.clearing
 
 $(function() {
   $(document).foundation();
