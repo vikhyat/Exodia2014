@@ -72,13 +72,7 @@ Literary:
     icon: http://i.imgur.com/oE2XJE7.jpg
   - id: imagination
     icon: http://i.imgur.com/Fcl4hzC.jpg
-  - id: rangde
-    icon: 
-  - id: conspiracytheory
-    icon:
-  - id: mrmissexodia
-    icon: 
-  - id: supari
-    icon: 
-  - id: rexpictorium
-    icon:  
+
+#Gaming:
+#  - id: fray
+#    icon: http://i.imgur.com/583nIMq.jpg
