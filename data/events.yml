@@ -6,7 +6,7 @@ Technical:
   - id: junkyardwars
     icon: http://i.imgur.com/bv8cbxq.jpg
   - id: dementia
-    icon: http://i.imgur.com/1BVWFKP.jpg
+    icon: /images/dementia1.jpg 
   - id: discover
     icon: http://i.imgur.com/CuDI1Fq.jpg
   - id: cosmos
@@ -18,7 +18,7 @@ Technical:
   - id: circuithunt
     icon: http://i.imgur.com/FvhtAdf.jpg
   - id: decodetoencode
-    icon: http://i.imgur.com/A0cb2MW.jpg
+    icon: /images/d2c.jpg 
   - id: clashofavatarslinefollowers
     icon: http://i.imgur.com/TVZCmCz.jpg
   - id: clashofavatarssumo
