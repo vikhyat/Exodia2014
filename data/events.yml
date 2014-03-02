@@ -73,6 +73,6 @@ Literary:
   - id: imagination
     icon: http://i.imgur.com/Fcl4hzC.jpg
 
-#Gaming:
-#  - id: fray
-#    icon: http://i.imgur.com/583nIMq.jpg
+Gaming:
+  - id: fray
+    icon: http://i.imgur.com/583nIMq.jpg
