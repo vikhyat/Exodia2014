@@ -1,6 +1,15 @@
 .sponsors {
   background: url(/images/sponsor.jpg);
 
+.spon_section{
+border-bottom: solid black 2px;
+padding-bottom: 10px;
+}
+
+h3{
+text-align:center;
+}
+
   .background-overlay {
     position: fixed;
     top: 0;
