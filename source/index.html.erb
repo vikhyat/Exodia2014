@@ -5,24 +5,50 @@
   <source id="mp4" type="video/mp4" />
 </video>
 
+ <script type="text/javascript"> 
+var pathObj = {
+    "logo-line": {
+        "strokepath": [
+            {
+                "path": "M0.642,159.189c-0.042,0.417-0.395,0.377,0.198,1.501   c0,0,2.177,3.084,5.51,3.667c0,0,4.333-5,12-17.667c7,36,32,82.333,42,98.333c-11.551,11.255-38.667,47-47.667,76.333   s-7.333,65.666,14.333,86.333s44.417,23.5,80.917,10.5s123.25-112,123.5-111.25s68.25,92.25,84.75,110s23.25,19,32,13   s45-34.5,57.25-42.75c18.25,16.5,78.25,57.25,81.25,53s32.5-29.5,33.5-30s8.028-0.404,4-3.25c-12-4.25-26.25,14.75-45.75,13.914   c-20.5,3.164-57.5-30.164-64-36.914s-8.75-8.75-11.5-6.75s-46.75,37.5-49,39.5s-6.567,6.639-14.25,2.5c-54.5-38-96-108.5-106-124   c-14,10-124.5,140-185,93.5c-57-60,1.75-125,16-139c14,17.75,21.25,25.25,27.75,31.5s10.5,7.5,13.25,4s23.75-20.75,39.25-27.75   c-105,5.75-122.5-120.25-122.5-120.25s1.75-2.25,5.25-8.75c98.5,1.5,152.083-73,152.083-73l0.417,0.75c0,0,5,9,9.5,16.5   c-19.5,24.5-28.75,94.5-23.625,92.125c15.125-40,38.375-67.125,38.875-66.5s25.125,40.625,30.875,47.25   c6-7.25,22.5-14.25,35.625-22.5c-0.625-19.25-9.625-33.375-27.875-65.625s-29.375-52-42.25-56.625   c-19,20-34.125,20.375-34.5,21.875s-1,4.375-0.5,6s4.681,12.636,8.813,19.248C140.411,90.913,45.37,88.434,45.37,88.434   L0.84,158.682",
+                "duration": 3000
+            },
+            {
+                "path": "M166.228,28.371c0,0,5.832,15.44,8.894,19.567   s4.645,7.502,4.645,7.502s8.167,14.625,9.917,17.25s12.185,20.724,15.519,26.033s28.481,45.342,30.606,46.842   c2.211-2.265,4.592-4.212,4.592-4.212l-9.133-2.578c0,0-16.542-24.833-16.625-25.708s1.292-11.295,0.667-12.045   s-11.458-5.127-11.458-5.127L189.642,71.97c0,0,1.5-11.217,0.958-11.925s-10.458-4.713-10.458-4.713s-11.208-17.224-11.875-23.057   c0.167-3.001,1.958-10.751,1.958-10.751s4.667-1.583,5.125-1.792s-3.708,20.083-3.708,20.083s5.458,10.252,5.75,10.502   s16.25,6.959,17,8.126s-0.708,19.67-0.667,19.795s7.083,11.79,7.083,11.79s17.458,7.875,18.167,9.042s-0.458,19.543-0.458,19.543   l8.625,13.252l17.22,6.753l6.493-3.875c0,0-18.796-5.917-18.921-6.25s-1.75-29.963-2.167-30.463S206.351,83.81,204.893,82.31   s0.375-27.378-0.333-28.253s-21.167-12.669-23.292-15.211s1.881-22.882,1.92-23.316s5.747-3.437,5.747-3.437   s-4.375,23.473-3.625,25.348s22.841,12.875,23.233,14.5s-0.642,27.125,0,28.125s22.642,14.375,24.267,16.25   s1.625,27.875,2.625,29.375s18.932,6.126,19.216,6.938c8.658-5.063,9.116-5.438,9.116-5.438s-16.917-2.792-17.75-3.542   s-0.457-33.458-0.957-34.333s-25-6.5-26.25-7.625s2.5-31.5,2.25-32.375s-24.25-11.25-25.25-13s3.063-32.5,3.063-32.5l2.65-2.922   c0,0,2.037,4.359,2.35,5.047s-4.125,27.75-3.75,28.375s25.063,12.5,25.438,13.313s-3.063,30.688-2.625,31.375   s23.563,6.188,23.938,6.75s2.625,4.063,2.625,4.75s-0.438,29.188-0.063,29.625s21,3,21,3l-20.5-32.25l-24-42.75   c0,0-21.688-41.438-21.688-41.813s-2.5-5.5-2.5-5.5",
+                "duration": 2500
+            }
+        ],
+        "dimensions": {
+            "width": 526,
+            "height": 441
+        }
+    }
+}; 
+ 
+ 
+/* 
+ Setup and Paint your lazyline! 
+ */ 
+ 
+ $(document).ready(function(){ 
+ $('#logo-line').lazylinepainter( 
+ {
+    "svgData": pathObj,
+    "strokeWidth": 2,
+    "strokeColor": "#e6e6e6"
+}).lazylinepainter('paint'); 
+ });
+</script>
+
 <div class="row content-row">
-  <div class="large-6 columns large-centered content">
-    <div class="show-for-small-only" style="height: 50px"></div>
-
-    <img src="http://i.imgur.com/SXqwpek.png" style="height:auto; width:auto; max-width:250px; max-height:250px;">
-    <p>Biggest Tech-Cult fest of Himalayas</p>
-
-    <div class="buttons">
-      <ul class="button-group radius">
-        <li><a href="http://www.iitmandi.ac.in/institute/howtoreach.html" class="button small alert" target="_blank">How to reach us</a></li>
-        <li><a href="https://www.facebook.com/Exodia.IITMandi" class="button small" target="_blank">Facebook</a></li>
-	<li><a href="http://exodia2014reg.herokuapp.com/registers/new" class="button small success" target="_blank">Registration</a></li>
-      </ul>
-    </div>
-
-    <iframe src="//player.vimeo.com/video/85721658" width="470" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
+  <div class="large-7 columns large-centered content">
+   <div id="logo-line"></div> 
+<h5> Due to bad weather conditions, the organising committee & college administration have decided to postpone the fest to mid April keeping in mind the convenience of participants and those visiting our college. <span>Dates to be released soon!</span>
+<br>Apologies to those who were coming to our fest, we hope to see you in April.!</div>
+  </h5>
 </div>
+
+
 
 <script>
   $("html").addClass("home-page");

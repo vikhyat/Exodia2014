@@ -2,6 +2,9 @@
 //= require vendor/jquery.cookie
 //= require vendor/modernizr
 //= require vendor/fastclick
+//= require vendor/jquery-1.9.1.min
+//= require vendor/raphael-min
+//= require vendor/jquery.lazylinepainter-1.4.1
 //
 //= require foundation/foundation
 //= require foundation/foundation.offcanvas

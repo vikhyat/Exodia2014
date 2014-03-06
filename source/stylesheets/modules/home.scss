@@ -46,16 +46,14 @@ html.home-page, .home-page body, .home-page .off-canvas-wrap, .home-page .inner-
     text-align: center;
     background-color: rgba(0,0,0,0.6);
 
-    h1 {
-      color: #fff;
-      text-transform: uppercase;
-      text-shadow: 0 0 5px #000;
-      font-size: 3em;
+    h5 {
+      color: #e6e6e6;
+line-height: 2em;
+      
 
       span {
-        color: $lightYellow;
         font-style: italic;
-        font-weight: 500;
+        
       }
       margin-bottom: 0;
     }
@@ -76,7 +74,6 @@ html.home-page, .home-page body, .home-page .off-canvas-wrap, .home-page .inner-
 
   .buttons {
     text-align: center;
-    opacity: 0.6;
     transition: opacity 0.1s ease-in;
     &:hover {
       opacity: 0.8;
