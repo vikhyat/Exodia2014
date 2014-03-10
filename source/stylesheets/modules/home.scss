@@ -5,82 +5,224 @@ html.home-page, .home-page body, .home-page .off-canvas-wrap, .home-page .inner-
 .index {
   height: 100%;
 
-  .draw-attention-to-menu {
-    height: 40px;
-    width: 150px;
-    position: absolute;
-    top: 10px;
-    left: 60px;
-    color:white;
-    background-color:black;
-    z-index: 10;
+background: url(/images/home_background.jpg)center center fixed no-repeat;
+  background-size: cover;
 
-    span{
-      text-align: center;
-      vertical-align: middle;
-      height: 40px;
-      width: 150px;
-      font-size:1em;
-      display:table-cell;
-    }
-  }
+.btn {
+	
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
-  video.bg {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
-    min-height: 100%;
-    min-width: 100%;
-    z-index: -999;
-  }
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
-  .content-row {
-    height: 100%;
-  }
+/* Button 1 */
+.btn-1 {
+	border: 3px solid #fff;
+	color: #fff;
+}
 
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+	color: #0e83cd;
+	background: #fff;
+}
+
+/* Button 1b */
+.btn-1b:after {
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.btn-1b:hover,
+.btn-1b:active {
+	color: #0e83cd;
+}
+
+.btn-1b:hover:after,
+.btn-1b:active:after {
+	height: 100%;
+}
+
+/* Button 1c */
+.btn-1c:after {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.btn-1c:hover,
+.btn-1c:active {
+	color: #0e83cd;
+}
+
+.btn-1c:hover:after,
+.btn-1c:active:after {
+	width: 100%;
+}
+
+/* Button 1d */
+.btn-1d {
+	overflow: hidden;
+}
+
+.btn-1d:after {
+	width: 0;
+	height: 103%;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-1d:hover,
+.btn-1d:active {
+	color: #0e83cd;
+}
+
+.btn-1d:hover:after {
+	width: 90%;
+	opacity: 1;
+}
+
+.btn-1d:active:after {
+	width: 101%;
+	opacity: 1;
+}
+
+/* Button 1e */
+.btn-1e {
+	overflow: hidden;
+}
+
+.btn-1e:after {
+	width: 100%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-1e:hover,
+.btn-1e:active {
+	color: #0e83cd;
+}
+
+.btn-1e:hover:after {
+	height: 260%;
+	opacity: 1;
+}
+
+.btn-1e:active:after {
+	height: 400%;
+	opacity: 1;
+}
+
+/* Button 1f */
+.btn-1f {
+	overflow: hidden;
+}
+
+.btn-1f:after {
+	width: 101%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-1f:hover,
+.btn-1f:active {
+	color: #0e83cd;
+}
+
+.btn-1f:hover:after {
+	height: 75%;
+	opacity: 1;
+}
+
+.btn-1f:active:after {
+	height: 130%;
+	opacity: 1;
+}
+
+
+  
+
+  
   .content {
     padding-top: 15px;
     height: 100%;
     text-align: center;
-    background-color: rgba(0,0,0,0.6);
 
-    h5 {
-      color: #e6e6e6;
-line-height: 2em;
-      
+h1{
+    color:#ffffff;
+   }   
 
       span {
         font-style: italic;
         
       }
       margin-bottom: 0;
-    }
 
     p {
       color: white;
       font-size: 1.2em;
-      line-height:50px;
-      a
-      {
-        color:yellow;
-        font-size:1em;
-        border: white 4px solid;
-        padding: 7px;
-      }
+      
+     
     }
   }
 
-  .buttons {
-    text-align: center;
-    transition: opacity 0.1s ease-in;
-    &:hover {
-      opacity: 0.8;
-    }
-    .button-group {
-      display: inline-block;
-    }
-  }
+  
+
+.circle {
+	border-radius: 50%;
+	width: 400px;
+	height: 400px; 
+	background-color :  rgba(0,0,0,0.6);
+}
+
+.footer{
+	bottom: 0;
+	position:absolute;
+}
 
 }
