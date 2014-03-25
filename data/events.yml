@@ -9,8 +9,8 @@ Technical:
     icon: /images/dementia1.jpg 
   - id: discover
     icon: http://i.imgur.com/CuDI1Fq.jpg
-  - id: cosmos
-    icon: http://i.imgur.com/Nwev1Y8.jpg
+  #- id: cosmos
+  # icon: http://i.imgur.com/Nwev1Y8.jpg
   - id: quickthesis
     icon: http://i.imgur.com/8q7D5vK.jpg
   - id: electrowar
