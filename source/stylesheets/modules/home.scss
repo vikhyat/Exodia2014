@@ -12,7 +12,7 @@ html.home-page, .home-page body, .home-page .off-canvas-wrap, .home-page .inner-
 
     background: none;
     cursor: pointer;
-    padding: 25px 80px;
+    padding: 25px 60px;
     display: inline-block;
     margin: 15px 15px;
     text-transform: uppercase;
@@ -195,7 +195,7 @@ html.home-page, .home-page body, .home-page .off-canvas-wrap, .home-page .inner-
 
     h1{
       color:#ffffff;
-    }   
+    }
 
     span {
       font-style: italic;
@@ -211,12 +211,14 @@ html.home-page, .home-page body, .home-page .off-canvas-wrap, .home-page .inner-
     }
   }
 
-
+  .row {
+    margin-left: -20px;
+  }
 
   .circle {
     border-radius: 50%;
     width: 400px;
-    height: 400px; 
+    height: 400px;
     background-color :  rgba(0,0,0,0.6);
   }
 
